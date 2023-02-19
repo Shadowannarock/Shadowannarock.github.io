@@ -2,7 +2,10 @@
 <html>
 
 <head>
+<link href = "styles/style.css" rel = "stylesheet">
+<!-- Font/Text style is not necessary for now-->
 
+<!--link href = "https://fonts.font.im/css?family=Open+Sans" rel = "stylesheet"type = "text/css"-->
 
 <style>
 #header {
@@ -24,18 +27,6 @@
     float:left;
     padding:10px;	 	 
 }
-#pic {
-    width:200px;
-    float:left;
-    padding:5px;	 	 
-}
-#media {
-    width:415px;
-   	height:100px; 
-	float:none;
-	padding-left:935px;
-	padding-top:250px; 
-}
 #footer {
     background-color:black;
     color:white;
@@ -43,13 +34,10 @@
     text-align:center;
    padding:5px;	 	 
 }
-video {
-	width:100%;
-	height:auto;
-	}
 	
 </style>
 </head>
+
 
 <body>
 
@@ -58,9 +46,9 @@ video {
 </div>
 
 <div id="nav">
-London<br>
-Paris<br>
-Tokyo<br>
+	London<br>
+	Paris<br>
+	Tokyo<br>
 </div>
 
 <div id="section">
@@ -75,25 +63,20 @@ its history going back to its founding by the Romans, who named it Londinium.
 </p>
 </div>
 
-<div id="pic">
 	
-    <img src="images/lundon.jpg" width="415" height="250"/>
+    <img src="images/lundon.jpg" width="415" height="250" alt = "This is a image of London Bridge."/>
    
-</div>
 
-<div id="media">
 		
-<video width="400" height="300" src="videos/lundon.mp4" controls="controls" preload="preload" autoplay="autoplay" >
-  
- 
- 
-  
-  </video>
-</div>
+	<video width="400" height="300" src="videos/lundon.mp4" controls="controls" preload="preload"  > </video>
 
 <div id="footer">
 Copyright  Shadowannarock@outlook.com
 </div>
+<a href="https://jasonhawkes.com">Jason Hawkes</a>
 
-</body>
+	<script src = "scripts/main.js" defer></script>
+		<!--将script 文件放在HTML文件的底部，通常是最好的策略 -->
+		<!--It is widely accepted that arrange the script file at the bottom of the HTML file-->
+	</body>
 </html>
