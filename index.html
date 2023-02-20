@@ -64,13 +64,15 @@ its history going back to its founding by the Romans, who named it Londinium.
  	<figure>
 		<img src="images/london.jpg"  alt = "This is a image of London Bridge."/>
 	   		<!--description of the image-->
-			<figcaption>a image of London Bridge from @
+			<figcaption>from @
 			<a title =  "jasonhawkes.com" href="https://jasonhawkes.com">jasonhawkes.com</a>
 			</figcaption>
 	</figure>
 
 	<!--insert a video about london city gallery-->	
-	<video  src="videos/london.mp4" controls="controls" preload="preload"  > </video>
+	<video  src="videos/london.mp4" controls autoplay muted loop 
+			preload="auto" poster = 'images/london.jpg'  > </video>
+	<!--the priority of 'autoplay' is higher than 'preload'-->		
 </aside>
 
 </main>
