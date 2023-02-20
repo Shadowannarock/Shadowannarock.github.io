@@ -16,23 +16,8 @@
 
 <style>
 #header {
-    background-color:black;
-    color:white;
+    color:black;
     text-align:center;
-    padding:5px;
-}
-#nav {
-    line-height:30px;
-    background-color:#eeeeee;
-    height:500px;
-    width:100px;
-    float:left;
-    padding:5px;	      
-}
-#section {
-    width:800px;
-    float:left;
-    padding:10px;	 	 
 }
 #footer {
     background-color:black;
@@ -52,13 +37,17 @@
 <h1>City Gallery</h1>
 </div>
 
-<div id="nav">
-	London<br>
-	Paris<br>
-	Tokyo<br>
-</div>
+<main>
+	<!--This is a navagation -->
+	<nav>
+		<ul>
+			<li>London</li>
+			<li>Paris</li>
+			<li>Tokyo</li>
+		</ul>
+	</nav>
 
-<div id="section">
+<article>
 <h2>London</h2>
 <p>
 London is the capital city of England. It is the most populous city in the United Kingdom,
@@ -68,19 +57,32 @@ with a metropolitan area of over 13 million inhabitants.
 Standing on the River Thames, London has been a major settlement for two millennia,
 its history going back to its founding by the Romans, who named it Londinium.
 </p>
+</article>
+
+<aside>
+	<!--insert a image--->
+ 	<figure>
+		<img src="images/london.jpg"  alt = "This is a image of London Bridge."/>
+	   		<!--description of the image-->
+			<figcaption>a image of London Bridge from @
+			<a title =  "jasonhawkes.com" href="https://jasonhawkes.com">jasonhawkes.com</a>
+			</figcaption>
+	</figure>
+
+	<!--insert a video about london city gallery-->	
+	<video  src="videos/london.mp4" controls="controls" preload="preload"  > </video>
+</aside>
+
+</main>
+
+
+
+	<div id="footer">
+	<p>Copyright  Shadowannarock@outlook.com</p> 
 </div>
 
-	
-    <img src="images/lundon.jpg" width="415" height="250" alt = "This is a image of London Bridge."/>
-   
-
-		
-	<video width="400" height="300" src="videos/lundon.mp4" controls="controls" preload="preload"  > </video>
-
-<div id="footer">
-Copyright  Shadowannarock@outlook.com
-</div>
-<a title =  "jasonhawkes.com" href="https://jasonhawkes.com">Jason Hawkes</a>
+	<!--CONTRACT WITH SHADOWANNAROCK-->
+	<a href = "mailto:Shadowannarock@outlook.com">SEND SHADOWANNAROCK EMAIL</a>
 
 	<script src = "scripts/main.js" defer></script>
 		<!--将script 文件放在HTML文件的底部，通常是最好的策略 -->

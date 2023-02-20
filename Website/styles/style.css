@@ -1,6 +1,45 @@
 html {
 	/**/
-	font-size : 10px ;
+	font-size : 20px ;
 
-	font-family :'Open Sans' , sans-serif ;
+	/*It is not necessary for now*/
+	/*font-family :'Open Sans' , sans-serif ;*/	
+	
+	/*set the background-image of html*/
+	/*background-image: url(../images/london.jpg);*/
+
+}
+main{
+	display :flex;
+}
+
+nav{
+	flex:1;
+}
+
+article {
+	flex: 4;
+}
+aside {
+	flex: 1;
+	margin-left:10px;
+}
+figure{
+	padding:1%;
+	width:400px;
+	height:300px;
+}
+
+img{
+	width:80%;
+	height:53%;
+}
+
+video{
+	padding:1%;
+	width:400px;
+	height:300px;
+}
+h2{
+	text-align:center;
 }
