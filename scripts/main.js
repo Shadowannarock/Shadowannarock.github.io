@@ -10,6 +10,7 @@ document.querySelector("img").addEventListener("click",function(){
 
 /* import hls.js to load london.mp4 segment */
 
+/*
 var video = document.querySelector('video') ; //get 'video' from index.html
   var videoSrc = 'https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/v2/prog_index.m3u8';
   if (Hls.isSupported()) {
@@ -33,4 +34,4 @@ var video = document.querySelector('video') ; //get 'video' from index.html
   else if (video.canPlayType('application/vnd.apple.mpegurl')) {
     video.src = videoSrc;
   }
-
+*/
